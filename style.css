@@ -1,0 +1,80 @@
+body,
+h1,
+h2,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 3.2;
+}
+
+
+/* Navbar styling */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #04250c;
+    color: white;
+}
+
+.logo {
+    color: #33ff66;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+/* Hero section */
+
+.hero {
+    background-color: #d4faf4;
+    padding: 40px;
+    text-align: center;
+}
+
+.hero h1 {
+    color: green;
+}
+
+.hero p {
+    color: rgb(124, 11, 11);
+}
+
+
+/* Features section */
+
+.features {
+    padding: 20px;
+}
+
+.features ul {
+    list-style-type: none;
+}
+
+.features li {
+    background-color: #33ff66;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #04250c;
+    ;
+    color: white;
+}
